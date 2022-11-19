@@ -23,7 +23,6 @@ public void draw()
 public void keyPressed(){
   if (key == 'q'){
     amy.hyperspace();
-    amy.accelerate(0);
   }
   if (key == 'w'){
     amy.accelerate(2);
