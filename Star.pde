@@ -5,7 +5,7 @@ class Star //note that this class does NOT extend Floater
   {
     x = (int)(Math.random()*600);
     y = (int)(Math.random()*600);
-    s = 5;
+    s = s = (int)(Math.random()*3+4);;
   }
   public void show()
   {
